@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = 'ReactiveTableViewBinding_Pitometsu'
-  spec.version      = '1.1'
+  spec.version      = '1.1.1'
   spec.license      = {
     :type => 'MIT',
     :file => 'MIT-LICENSE.txt'
@@ -17,5 +17,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.source_files = '*.{h,m}'
   spec.dependency 'ReactiveObjC', '~> 2.1'
+  spec.module_name = 'ReactiveTableViewBinding'
 
 end
