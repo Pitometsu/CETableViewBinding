@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = 'ReactiveTableViewBinding'
+  spec.name         = 'ReactiveTableViewBinding_Pitometsu'
   spec.version      = '1.1'
   spec.license      = {
     :type => 'MIT',
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
     'Colin Eberhardt' => 'colin.eberhardt@gmail.com'
   }
   spec.summary      = 'ReactiveCocoa TableView Binding Helper.'
-  spec.source       = { git: 'https://github.com/ColinEberhardt/CETableViewBinding.git',
+  spec.source       = { git: 'https://github.com/Pitometsu/CETableViewBinding.git',
                         tag: spec.version.to_s }
   spec.platform     = :ios, '8.0'
   spec.requires_arc = true
